@@ -1,0 +1,17 @@
+{
+  "name": "node-kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:consumer": "npx nodemon consumer.js",
+    "start:producer": "npx nodemon producer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^1.15.0",
+    "nodemon": "^2.0.7"
+  }
+}
